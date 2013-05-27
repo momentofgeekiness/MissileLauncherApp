@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory
+        android:key="category_network"
+        android:title="@string/settings_network" >
+        <EditTextPreference
+            android:defaultValue="127.0.0.1"
+            android:dialogMessage="@string/settings_ip_summary"
+            android:dialogTitle="@string/settings_ip"
+            android:key="ip_address"
+            android:summary="@string/settings_ip_summary"
+            android:title="@string/settings_ip" />
+        <EditTextPreference
+            android:dialogMessage="@string/settings_port_summary"
+            android:dialogTitle="@string/settings_port"
+            android:key="port"
+            android:inputType="number"
+            android:summary="@string/settings_port_summary"
+            android:title="@string/settings_port" android:defaultValue="20000"/>
+        
+    </PreferenceCategory>
+
+</PreferenceScreen>

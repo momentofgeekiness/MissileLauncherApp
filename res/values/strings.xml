@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Missile Launcher</string>
+    <string name="action_settings">Settings</string>
+
+    <color name="bgcolor">#FF000000</color>
+
+    <string name="launch">LAUNCH</string>
+
+    <color name="launch_color">#FFCE2029</color>
+
+    <string name="title_activity_settings">Settings Activity</string>
+    <string name="settings_network">Network</string>
+    <string name="settings_ip">IP address</string>
+    <string name="settings_ip_summary">Enter the IP address or hostname of the pymissile server</string>
+    <string name="settings_port">Port</string>
+    <string name="settings_port_summary">Enter the port number of the pymissile server. Default: 20000</string>
+    <string name="arrow_left">Arrow Left</string>
+    <string name="arrow_up">Arrow Up</string>
+    <string name="stop">Stop</string>
+    <string name="arrow_right">Arrow Right</string>
+    <string name="arrow_down">Arrow Down</string>
+
+</resources>
